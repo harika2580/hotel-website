@@ -1,0 +1,194 @@
+<!doctype html>
+<html>
+<head >
+<title>PAYMENT PAGE</title>
+<link href="payment.css" rel="stylesheet" type="text/css"/>
+
+<script>
+    function check() 
+	{
+	   var a = document.forms["form3"]["card"].value; 
+	   var x = document.forms["form3"]["CVV"].value; 
+	   var y = document.forms["form3"]["pin"].value; 
+	   if(a=="" || a.length < 12 )
+	    {
+	    alert("please Enter the CORRECT CARD NUMBER");
+	    document.form3.card.focus();
+	    
+	    if(isNaN(a))
+	      {
+	       alert("Enter the valid CARD Number(Like : 7652 4854 1254 7896)");
+	       document.form3.card.focus();  return false;
+	       }
+	    }
+	  
+	  if(x=="" || x.length != 3 )
+	    {
+	    alert("please Enter CORRECT 3 digit CVV NUMBER ");
+	    document.form3.CVV.focus();
+	 
+	    if(isNaN(x))
+	      {
+	       alert("Enter the valid cvv Number(Like : 786)");
+	       document.form3.CVV.focus();  return false;
+	        }
+	     }
+		
+	 if(y=="" || y.length != 4 )
+	  {
+	    alert("please Enter CORRECT 4 digit PIN NUMBER ");
+	    document.form3.pin.focus();
+	    return false;
+	     }
+	   
+	  
+	     alert("PAYMENT DONE SUCCESSFULLY");
+    }
+	
+</script>
+
+</head>
+<body onload="window.alert('DO NOT PRESS BACK/REFRESH WHILE PROCESSING')">
+
+<div id="logo" style="height:150px;width:180px;float:left;"><a href="main.html">
+<img src="LOGO1.gif" class="round" height="110px" width="180px"></a>
+</div>
+
+<div id="header">
+<ul>
+<li> <a href="main.html">HOME</a> </li>
+<li> <a href="booking.html">BOOKING </a></li>
+<li style="width:130px;"><a href="restaurant.html">RESTURANT</a> </li>
+<li style="width:175px;"><a href="call_accounting.html"> CALL ACOUNTING </a></li>
+<li style="width:170px;"><a href="health.html"> HEALTH/SPA </a></li>
+<li style="width:130px;"><a href="overview.html">OVERVIEW </a></li>
+<li><a href="login.html">LOGIN</a></li>
+
+</ul>
+</div>
+
+<div id= BACKGROUND>
+<h1 id="borderimg" >PAYMENT MODE</h1>  
+
+  <div id="PAYMENTBOX">
+      <form id="form3" onsubmit="return check()">
+
+ <table border="0" cellspacing="5" cellpadding="5" >
+<tr></tr><br>
+
+ <tr>
+  <th>Payment mode::</th>
+  <td id="cardNo" bgcolor="gold"><select name ="dropdown" required>
+  <option> </option>
+  <option>Debit Card</option>
+  <option>Credit Card </option>
+  <option>payment gateway</option>
+  </td>
+  </tr>
+<tr></tr>
+<tr></tr>
+ <tr>
+ <th>Card No. ::</th>
+ <td bgcolor="gold"><input type="text" name ="cardNo" id="card" placeholder="Enter 14 digit card number"  required></td>
+ </tr>
+<tr></tr> <tr></tr>
+<tr>
+ <th>Card Name ::</th>
+ <td bgcolor="gold"><input type="text" name ="name" id="cardNo" placeholder="enter name on the card" required></td>
+ </tr>
+<tr></tr>
+<tr></tr>
+
+ <tr>
+  <th>Expiry Date::</th>
+  <td id="cardNo" bgcolor="gold"><select name ="dropdown" required>
+  <option> </option> 
+  <option>January</option>
+  <option>February </option>
+  <option>March</option>
+  <option>April</option>
+  <option>May </option>
+  <option>June</option>
+  <option>July</option>
+  <option>August</option>
+  <option>September</option>
+  <option>October</option>
+  <option>November</option>
+  <option>December</option>
+  </td>
+  <td id="cardNo" bgcolor="gold"><select name ="dropdown1"required >
+  <option> </option>
+  <option >2017</option>
+  <option>2018 </option>
+  <option>2019</option>
+  <option>2020</option>
+  <option>2021 </option>
+  <option>2022</option>
+  <option>2023</option>
+  <option>2024</option>
+  <option>2025</option>
+  <option>2026</option>
+  <option>2027</option>
+  <option>2028</option>
+  <option>2029</option>
+  <option>2030</option>
+  <option>2031</option>
+  <option>2032</option>
+  <option>2033</option>
+  <option>2034</option>
+  <option>2035</option>
+  <option>2036</option>
+  <option>2037</option>
+  <option>2038</option>
+  <option>2039</option>
+  <option>2040</option>
+  <option>2041</option>
+  <option>2042</option>
+  <option>2043</option>
+  <option>2044</option>
+  <option>2045</option>
+  <option>2046</option>
+  <option>2047</option>
+  <option>2048</option>
+  <option>2049</option>
+  <option>2050</option>
+  </td>
+ </tr>
+
+<tr></tr>
+<tr></tr>
+ <tr>
+ <th >CVV No. :: </th>
+ <td bgcolor="gold"><input type="number" id="CVV"  name="cvv" placeholder="enter 3 digit CVV number" required> </td>
+ </tr>
+<tr></tr>
+<tr></tr>
+ <tr>
+ <th>Pin::</th>
+ <td bgcolor="gold"><input type="number" id="pin"  name ="pin" placeholder="enter 4 digit pin number" required></td>
+ </tr>
+<tr></tr>
+<tr></tr>
+ 
+  <tr><th></th>
+<td><input type ="submit" id="sub" value="OK" ></a>&nbsp&nbsp&nbsp&nbsp
+<input type ="reset" id="sub" value="RESET" onclick="alert('Reset sucessfully enter again!!!')" ></td>
+</tr>
+<tr> </tr>
+
+
+ </form>
+ </table>
+  </div>
+
+<div id ="nortan">
+  <img src="nortan.png" width="100%" height="100%"> 
+ </div>
+<div id ="nortan1">
+  <img src="payment4.png" width="100%" height="100%"> 
+ </div>
+
+</div>
+
+</body>
+</html>

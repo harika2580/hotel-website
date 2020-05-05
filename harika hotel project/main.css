@@ -1,0 +1,102 @@
+
+#moving_box1 {
+    width: 300px;
+    height: 150px; border-radius:30px;
+       background-image:url("BG12.jpg");
+	background-size:cover;
+        background-repeat:no-repeat;
+        background-position: center;
+     position:relative;
+     font-family:algerian;
+     color:rgb(194, 4, 4); 
+     text-align:center;
+    animation: mymove1 10s linear infinite;
+   
+}
+
+@keyframes mymove1 {
+    0%   {left: 0px;}
+     35%{color:rgb(223, 13, 13);}
+    50%  {left: 1010px;color:rgb(245, 16, 16);border-radius:100px;
+         background-image:url("NBG3.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;}
+     75%{color:rgb(245, 61, 162);}
+    100% {left:0px;color:rgb(56, 10, 163);border-radius:30px;}
+}
+body 
+{
+ background-image: url("HBG1.jpg");
+ background-repeat:no-repeat; background-size:cover;
+ background-attachment: fixed;
+
+  }
+  #FORM1{
+          margin:0 120px;
+          text-align: center;
+          color:gold;
+  }
+  #header
+  {
+     background-image:url("BG6.png"); background-repeat:no-repeat;background-size:cover;
+    margin-top:-5px; margin-right:0px;  padding:5px;   margin-left:-7px;
+    height:100px; width:1332px;
+    text-align:center; border-style:none;
+    }
+ 
+ 
+  #header ul{list-style-type:none;}
+  #header ul li
+  {
+          border:5px solid; font-size:18px;
+          float:left; background-color:pink;
+          width:110px;     
+          height:50px;   
+          text-align:center;
+          margin:0px 10px 0px 10px;
+          font-weight:bold;
+          line-height:50px;
+          border-radius:50px;
+          transition-property:all;
+          transition-duration:0.3s;
+          transition-timing-function:linear;
+  }
+  #header li{
+          text-decoration:none;
+          color:gold;
+          }
+  
+  #header li:hover{
+                        background-color:#00FF7F;
+                          color:gold;
+                          }
+  
+  #header li:active{background-color:#00FFFF;}
+  img.round{ border-radius:50px; }
+  #styl{
+        background-color: pink; 
+        font-size: 13px; font-weight: bold; 
+        height:62px; margin-top: 20px; 
+         margin-left: 15px;
+         margin-bottom: 20px;
+          margin-right: 20px;
+           border:6px solid gold; 
+          width:160px; text-align: center; 
+          border-radius: 50px; 
+          padding:18px; box-sizing: border-box;
+      }
+#leftPart
+ {
+    height:551px; width:1275px; color:black; padding:5px; float: center;     
+     border:25px;  
+     border-style:groove;
+      margin-top:2px; border-radius: 30px;
+    border-color:rgb(240, 224, 6); font-weight:bold; 
+         font-size:15px;
+        transition-property:all;
+	transition-duration:0.3s;
+        transition-timing-function:linear;
+  }  
+
+
+

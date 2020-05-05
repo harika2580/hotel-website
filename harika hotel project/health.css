@@ -1,0 +1,168 @@
+
+#header
+{
+   background-image:url("11.jpg"); background-repeat:no-repeat;background-size:cover;
+  margin-top:-5px; margin-right:0px;  padding:5px;   margin-left:0px;
+  height:100px; width:1332px;
+  text-align:center; border-style:none;
+  }
+ 
+#header ul{list-style-type:none;}
+#header ul li
+{
+        border:5px solid; font-size:18px;
+        float:left; background-color:pink;
+        width:110px;     
+	height:50px;   
+	text-align:center;
+	margin:0px 10px 0px 10px;
+        font-weight:bold;
+	line-height:50px;
+	border-radius:50px;
+	transition-property:all;
+	transition-duration:0.3s;
+	transition-timing-function:linear;
+}
+#header li{
+	text-decoration:none;
+	color:gold;
+	}
+
+#header li:hover{
+		      background-color:#00FF7F;
+			color:gold;
+			}
+
+#header li:active{background-color:#00FFFF;}
+img.round{ border-radius:50px; }
+#styl{
+  background-color: pink; 
+  font-size: 13px; font-weight: bold; 
+  height:62px; margin-top: 20px; 
+   margin-left: 15px;
+   margin-bottom: 20px;
+    margin-right: 20px;
+     border:6px solid gold; 
+    width:160px; text-align: center; 
+    border-radius: 50px; 
+    padding:18px; box-sizing: border-box;
+}
+#START
+{
+    background-image:url(SPAB3.jpg); background-repeat:no-repeat;
+   background-size:cover;  background-attachment:fixed; background-position:right; 
+   float:left;
+   height:1120px;
+   width :1342px;
+   margin-top:-40px;
+    color: rgb(240, 240, 234);
+   text-align:center;
+  font-size:28px;
+}
+
+#borderimg
+{
+    height:400px; width:400px; float:left;
+    border: 30px solid transparent;
+     padding: 10px;
+    
+    border-image: url(BG23.jpg) 50 round;
+    margin-bottom:30px;  margin-top:100px; 
+    margin-left:800px;    
+}
+
+#startBOX
+{
+    float:left; margin-left:15px;
+  height:550px; width:1305px; margin-top:50px;
+  background-color:white; color:black;
+}
+#startBOXIMG
+{
+    float:right; margin-top:60px;margin-right:10px;
+  height:400px; width:500px;border:10px brown;
+  border-style:groove;
+}
+#startBOXPARA
+{
+    float:left; margin-top:60px; margin-left:10px;
+  height:400px; width:730px;border:10px brown;
+  border-style:groove;
+}
+#GYM
+{
+    background-image:url("HS5.jpg"); background-repeat:no-repeat;
+   background-size:cover;  background-attachment: fixed;
+  
+   float:left;
+   height:1500px;
+   width :1342px;
+   margin-top:-40px;
+    color: rgb(66, 3, 3);
+   text-align:center;
+  font-size:30px;
+}
+
+#GYMBOX
+{
+    float:left; margin-left:15px;
+  height:650px; width:1305px; margin-top:300px;
+  background-color:white; color:black;
+}
+#GYMBOXIMG
+{
+    float:right; margin-top:50px;margin-right:10px;
+  height:530px; width:600px;border:10px brown;
+  border-style:groove;
+}
+#GYMBOXPARA
+{
+    float:left; margin-top:50px; margin-left:10px;
+  height:530px; width:600px;border:10px brown;
+  border-style:groove; font-size:24px;
+}
+
+.content
+{
+    border: 5px orange;
+    border-style:groove;   height:520px; width:590px;
+    float:left;
+    border-radius:20px;
+ }
+.mySlides
+{
+    height:100%;
+    width:100%;
+}
+
+#SPA
+{
+    background-image:url("SPA2.jpg"); background-repeat:no-repeat;
+   background-size:cover;  background-attachment: fixed;
+}
+#SPA1{
+  float:center;
+  height:2300px;
+  width :1342px;
+  margin-top:0px;
+   color: rgb(250, 246, 10);
+  text-align:center;
+ font-size:40px;
+}
+
+#SPABOX1
+{
+  margin-left:15px;
+  height:200px; width:1320px; margin-top:200px;
+  background-color:rgb(255, 148, 148); color:black;
+  border-radius: 30px;
+}
+#SPABOXIMG1
+{
+     margin-top:30px;
+  height:475px; width:1300px;border:10px orange;
+  border-style:groove;  border-radius:30px;
+}
+
+
+

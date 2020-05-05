@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<title>LOGIN PAGE</title>
+<link href="overview.css" rel="stylesheet" type="text/css"/>
+
+</head>
+<body>
+
+<div id="logo" style="height:150px;width:180px;float:left;"><a href="main.html">
+<p id="styl">HOTEL HARIKA</p>
+</div>
+
+<div id="header">
+<ul>
+<li> <a href="main.html">HOME</a> </li>
+<li> <a href="booking.html">BOOKING </a></li>
+<li style="width:130px;"><a href="restaurant.html">RESTURANT</a> </li>
+<li style="width:175px;"><a href="call_accounting.html"> CALL ACOUNTING </a></li>
+<li style="width:170px;"><a href="health.html"> HEALTH/SPA </a></li>
+<li style="width:130px;"><a href="overview.html">OVERVIEW </a></li>
+</ul>
+</div>
+
+<div id= BACKGROUND>
+ <h1 id="borderimg">| ****HAPPY TO SERVE YOU**** |</h1>
+
+ <div id="contact">
+    <div id="contact_box">
+     <h1><u>| *CONTACT US*|</h1>
+
+    <table id="number" border="3" cellspacing="5" cellpadding="5" >
+     <tr></tr><br>
+      <tr>
+      <td>HARIKA M.D</td>
+      <td>M.No: 9875462100</td>
+      </tr>
+      <tr>
+      <td>MANAGER</td>
+      <td>M.No: 9990462122</td>
+      </tr>
+      <tr>
+      <td>BOOKING</td>
+      <td>M.No: 8702569874</td>
+      </tr>
+      <tr>
+      <td>QUERIES</td>
+      <td>M.No: 9865748123</td>
+      </tr>
+       
+    </table>
+    </div>
+
+   <div class="content">
+   
+  <img class="mySlides " src="over1.jpg" >
+  <img class="mySlides " src="over2.jpg" >
+  <img class="mySlides " src="over3.jpg" >
+  <img class="mySlides " src="over4.jpg"  >
+  <img class="mySlides " src="over5.jpg" >
+  <img class="mySlides " src="pic17.jpg"  >
+  <img class="mySlides " src="AC2.jpg"  >
+
+   </div>
+ <div id="bottom">
+   <h4>Follow Us On :: <h4>
+    <a href="#"><img src="fb.jpg" height="5%" width="5%"></a>
+    <a href="#"><img src="google.jpg" height="5%" width="5%"></a>
+    <a href="#"><img src="tw.jpg" height="5%" width="5%"></a>
+   <a href="#"><img src="yoo.png" height="5%" width="5%"></a>
+ </div>  
+
+</div>
+
+</div>
+<script>
+
+var myIndex = 0;
+carousel();
+   
+function carousel()
+ {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 1000);    
+  }
+
+</script>
+
+
+</body>
+</html>

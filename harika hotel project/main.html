@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+<head>
+<title>HOTEL MANAGEMENT SYSTEM</title>
+<link href="main.css" rel="stylesheet" type="text/css"/>
+<script>
+function fth1( ){ document.getElementById("chat").style.color="pink"; } 
+ function fth2( ){document.getElementById("chat").style.color="white";}
+function fth3( ){ document.getElementById("feed").style.color="pink"; }
+ function fth4( ){document.getElementById("feed").style.color="white";}
+function fth5( ){ document.getElementById("in").style.color="pink"; }
+ function fth6( ){document.getElementById("in").style.color="white";}
+function fth7( ){ document.getElementById("out").style.color="pink"; }
+ function fth8( ){document.getElementById("out").style.color="white";}
+function fth9( ){ document.getElementById("type").style.color="pink"; }
+ function fth10( ){document.getElementById("type").style.color="white";}
+</script>
+
+
+</head>
+<body>
+
+<div id="logo" style="height:150px;width:180px;float:left;"><a href="main.html">
+  <p id="styl">HOTEL HARIKA</p>
+</div>
+
+<div id="header">
+<ul>
+<li> <a href="main.html">HOME</a> </li>
+<li> <a href="booking.html">BOOKING </a></li>
+<li style="width:130px;"><a href="restaurant.html">RESTURANT</a> </li>
+<li style="width:170px;"><a href="call_accounting.html"> CALL ACOUNTING</a></li>
+<li style="width:170px;"><a href="health.html"> HEALTH/SPA </a></li>
+<li style="width:130px;"><a href="overview.html">OVERVIEW </a></li>
+
+</ul>
+</div>
+
+<div id="moving_box1">
+  <h1>WELCOME TO **HOTEL HARIKA**</h1>
+</div>
+
+
+<div id="leftPart">
+<form id="FORM1" onsubmit="alert('SUBMITTED SUCCESSFULLY!!!')">
+
+<table border="0" cellspacing="5" cellpadding="4" >
+ <tr>
+ <th id="in" onmouseover="fth5()" onmouseout="fth6()"> Check in:: </th>
+ <td bgcolor="gold"><input type="date" name="in" id="date1" required></td>
+ </tr>
+<tr></tr>
+<tr></tr>
+ <tr>
+ <th id="out" onmouseover="fth7()" onmouseout="fth8()">Check Out::</th>
+ <td bgcolor="gold"><input type="date" name ="out" id="date2"  oninvalid="alert('invalid date')" required ></td>
+ </tr>
+<tr></tr>
+<tr></tr>
+ <tr>
+  <th id="type" onmouseover="fth9()" onmouseout="fth10()">Room Type::</th>
+  <td bgcolor="gold"><select name ="dropdown" required >
+   <option></option>
+  <option >A/C</option>
+  <option  > Non A/C</option></select>
+  
+  <select name ="drpodown1" required >
+   <option></option>
+  <option >Single</option>
+  <option >Double</option>
+  <option >Three</option>
+  </td>
+  </tr>
+<tr><th></th>
+<td><input type ="submit" id="sub" value="Submit" onclick="" > &nbsp&nbsp&nbsp&nbsp
+<input type ="reset" id="sub" value="Reset" onclick="alert('RESET SUCCESSFULLY...ENTER AGAIN')" ></td>
+</tr>
+<tr> </tr><br><br>
+<tr>
+<th id="chat" onmouseover="fth1()" onmouseout="fth2()">Chat::</th>
+<td bgcolor="gold"><input type="text" name ="chat" placeholder="Enter Your message here!" id="chat1" onmouseover="fn1()" onmouseout="fn3()" onclick="fn5()" required></td>
+</tr>
+<tr>
+<th></th><td><input type ="submit" value="Send" id="sub" >  </td>
+</tr>
+
+<tr></tr>
+<tr></tr>
+<tr>
+<th id="feed" onmouseover="fth3()" onmouseout="fth4()">Feedback::</th>
+<td bgcolor="gold"><input style="height:100px;" type="text" name ="feed" placeholder="please Enter Your feedback here!" id="feed1" onmouseover="fn2()" onmouseout="fn4()" onclick="fn6()" required></td></tr>
+<tr>
+<th></th><td><input type ="submit" value="Send" id="sub" onclick="">  </td>
+</tr>
+ </form>
+ </table>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,119 @@
+#header
+{
+   background-image:url("NBG1.jpg"); background-repeat:no-repeat;background-size:cover;
+  margin-top:-5px; margin-right:0px;  padding:5px;   margin-left:0px;
+  height:100px; width:1332px;
+  text-align:center; border-style:none;
+  }
+ 
+#header ul{list-style-type:none;}
+#header ul li
+{
+        border:5px solid; font-size:18px;
+        float:left; background-color:pink;
+        width:110px;     
+	height:50px;   
+	text-align:center;
+	margin:0px 10px 0px 10px;
+        font-weight:bold;
+	line-height:50px;
+	border-radius:50px;
+	transition-property:all;
+	transition-duration:0.3s;
+	transition-timing-function:linear;
+}
+#header li{
+	text-decoration:none;
+	color:gold;
+	}
+
+#header li:hover{
+		      background-color:#00FF7F;
+			color:gold;
+			}
+
+#header li:active{background-color:#00FFFF;}
+img.round{ border-radius:50px; }
+#BACKGROUND
+{
+    background-image:url(blur.jpg); background-repeat:no-repeat;
+  background-size:cover;
+  background-attachment: fixed;
+   float:left;
+   height:800px;
+   width :1340px;
+   margin-top:-40px;
+    color: rgb(100,10,5);
+   text-align:center;
+font-size:30px; font-family:algerian;
+}
+#BOOKINGBOX
+{
+   height:500px; width:400px;
+   background-image: url("NBG1.jpg");
+   background-repeat:no-repeat; background-size:cover;
+   background-position: center;
+   opacity:0.8;
+    text-align:center;   
+   margin-left:480px;     
+   border-radius:30px;
+   margin-top:20px;
+   color:#00FF7F;
+  font-size:28px;
+  font-family:impact;
+  
+}
+
+#borderimg
+{
+    height:80px; width:1220px;
+    border: 30px solid transparent;
+     padding: 10px;
+    -webkit-border-image: url(MBG1.jpg) 20% round;
+    -o-border-image: url(MBG1.jpg) 20% round;
+    border-image: url(MBG1.jpg) 20% round;
+    margin-bottom:30px;  margin-top:20px; 
+    margin-left:20px;
+   color:rgb(36, 6, 107);
+}
+#styl{
+  background-color: pink; 
+  font-size: 13px; font-weight: bold; 
+  height:62px; margin-top: 20px; 
+   margin-left: 15px;
+   margin-bottom: 20px;
+    margin-right: 20px;
+     border:6px solid gold; 
+    width:160px; text-align: center; 
+    border-radius: 50px; 
+    padding:18px; box-sizing: border-box;
+}
+
+
+
+
+ #slide_name1
+ {
+     width:390px;  height:60px;
+     border:20px solid rgb(139,10,4);
+     border-style:groove;
+    text-align:center;
+    float:left;
+    font-size:20px;
+   font-family:impact;
+   color:rgb(6, 12, 99);
+   margin-left:20px; margin-top:-270px;     
+ }
+ 
+ #slide_name2
+ {
+     width:370px;  height:60px;
+     border:20px solid rgb(139, 10, 4);
+     border-style:ridge;
+    text-align:center;
+    float:right;
+    font-size:20px;
+   font-family:impact;
+   color:rgb(6, 12, 99);
+   margin-right:-895px; margin-top:-300px;     
+ }
