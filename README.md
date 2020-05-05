@@ -1,5 +1,4 @@
-# hotel-website
-//overview
+
 <!doctype html>
 <html>
 <head>
